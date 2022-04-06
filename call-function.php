@@ -1,3 +1,6 @@
+var ajaxurl = "<?php echo admin_url('admin-ajax.php') ?>";
+
+
 $('.students').on('click', function(){
   let id = $(this).attr('id');
   let first_name = $('#first_name'+id).val();
